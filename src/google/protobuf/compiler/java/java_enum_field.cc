@@ -34,6 +34,9 @@
 
 #include <map>
 #include <string>
+#ifdef __MACH__
+# undef TYPE_BOOL
+#endif
 
 #include <google/protobuf/stubs/common.h>
 #include <google/protobuf/compiler/java/java_context.h>

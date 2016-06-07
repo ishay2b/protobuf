@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DBA6F8B12B84878540F44342C4772AC004D85ABD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DBA6F8B12B84878540F44342C4772AC004D85ABD" : 0,
+    "5B89224B5514737BA884F3444A49596A788B6CDF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "702105BE-B842-45B1-999D-C3ABA63C0C81",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DBA6F8B12B84878540F44342C4772AC004D85ABD" : "protobuf\/",
+    "5B89224B5514737BA884F3444A49596A788B6CDF" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ProtocolBuffers_iOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objectivec\/ProtocolBuffers_iOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/grover.local:9999\/git\/Mobile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5B89224B5514737BA884F3444A49596A788B6CDF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:google\/protobuf.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBA6F8B12B84878540F44342C4772AC004D85ABD"
+    }
+  ]
+}

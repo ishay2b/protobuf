@@ -39,7 +39,9 @@
 #include <vector>
 #include <algorithm>
 #include <limits>
-
+#ifdef __MACH__
+# undef TYPE_BOOL
+#endif
 #include <google/protobuf/descriptor.h>
 #include <google/protobuf/descriptor_database.h>
 #include <google/protobuf/descriptor.pb.h>

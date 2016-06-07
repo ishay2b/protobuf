@@ -42,6 +42,10 @@
 
 #include <google/protobuf/text_format.h>
 
+#ifdef __MACH__
+# undef TYPE_BOOL
+#endif
+
 #include <google/protobuf/descriptor.h>
 #include <google/protobuf/wire_format_lite.h>
 #include <google/protobuf/io/coded_stream.h>
@@ -376,7 +380,7 @@ class TextFormat::Parser::ParserImpl {
     } else {
       DO(ConsumeIdentifier(&field_name));
 
-      int32 field_number;
+      int32 field_number = 0;
       if (allow_field_number_ && safe_strto32(field_name, &field_number)) {
         if (descriptor->IsExtensionNumber(field_number)) {
           field = reflection->FindKnownExtensionByNumber(field_number);

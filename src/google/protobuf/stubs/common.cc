@@ -36,7 +36,7 @@
 #include <errno.h>
 #include <vector>
 
-#include "config.h"
+#include "protobuff_config.h"
 
 #ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN  // We only need minimal includes
@@ -192,7 +192,7 @@ void LogMessage::Finish() {
 
   if (level_ == LOGLEVEL_FATAL) {
 #if PROTOBUF_USE_EXCEPTIONS
-    throw FatalException(filename_, line_, message_);
+   // throw FatalException(filename_, line_, message_);
 #else
     abort();
 #endif
